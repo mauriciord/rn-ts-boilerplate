@@ -3,13 +3,14 @@
   "version": "0.0.1",
   "private": true,
   "lint-staged": {
-    "*.js": [
-      "prettier --write --single-quote true --trailing-comma all --print-width 100",
-      "yarn jest:lint --passWithNoTests",
+    "*.tsx": [
+      "prettier",
+      "yarn jest --passWithNoTests",
       "git add"
     ],
-    "*.yml": [
-      "prettier --write",
+    "*.ts": [
+      "prettier",
+      "yarn jest --passWithNoTests",
       "git add"
     ]
   },
