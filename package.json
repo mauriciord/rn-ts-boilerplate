@@ -1,32 +1,10 @@
 {
-  "name": "iclinicMobileUI",
+  "name": "rnBoilerplateTS",
+  "repository": "https://github.com/mauriciord/ic-mobile-ui-ts.git",
+  "author": "Mauricio R Duarte",
+  "license": "MIT",
   "version": "0.0.1",
   "private": true,
-  "lint-staged": {
-    "*.tsx": [
-      "prettier",
-      "yarn jest --passWithNoTests",
-      "git add"
-    ],
-    "*.ts": [
-      "prettier",
-      "yarn jest --passWithNoTests",
-      "git add"
-    ]
-  },
-  "pre-commit": "lint:staged",
-  "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "android": "react-native run-android",
-    "android:apk": "cd android && ./gradlew assembleRelease",
-    "android:install": "adb install android/app/build/outputs/apk/app-release.apk",
-    "clear": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
-    "devtools": "react-devtools",
-    "ios": "react-native run-ios",
-    "lint": "tslint --project tsconfig.json",
-    "lint:staged": "lint-staged"
-  },
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.1"
@@ -73,5 +51,30 @@
     "tslint-react": "^3.6.0",
     "typescript": "^3.3.4000",
     "typescript-eslint-parser": "^18.0.0"
+  },
+  "lint-staged": {
+    "*.tsx": [
+      "prettier",
+      "yarn jest --passWithNoTests",
+      "git add"
+    ],
+    "*.ts": [
+      "prettier",
+      "yarn jest --passWithNoTests",
+      "git add"
+    ]
+  },
+  "pre-commit": "lint:staged",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "android:apk": "cd android && ./gradlew assembleRelease",
+    "android:install": "adb install android/app/build/outputs/apk/app-release.apk",
+    "clear": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
+    "devtools": "react-devtools",
+    "ios": "react-native run-ios",
+    "lint": "tslint --project tsconfig.json",
+    "lint:staged": "lint-staged"
   }
 }
