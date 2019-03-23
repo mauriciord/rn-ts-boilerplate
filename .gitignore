@@ -102,3 +102,7 @@ hard-source-cache/
 # Cypress
 cypress/videos
 cypress/screenshots
+
+# ios/android - rn template
+ios/
+android/
