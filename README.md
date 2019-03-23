@@ -6,6 +6,10 @@ This project is a template using React Native and Typescript.
 
 ```
 npx react-native init YourProjectName --template mard-rn-ts
+
+cd YourProjectName
+
+node first-setup
 ```
 
 ## Git hooks
