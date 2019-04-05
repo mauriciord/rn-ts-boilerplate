@@ -24,6 +24,10 @@ const App: SFC<{}> = props => (
   <Text>testee</Text>
   <Text>testee</Text>
   <Text>testee</Text>
+  <Text>testee</Text>
+  <Text>testee</Text>
+  <Text>testee</Text>
+  <Text>testee</Text>
     <Text>Mais um para testar o prettier</Text>
     <Text>Mais um para testar o prettier</Text>
     <Text>Mais um para testar o prettier</Text>
