@@ -20,7 +20,14 @@ const instructions = Platform.select({
 
 const App: SFC<{}> = props => (
   <View style={styles.container}>
-  <Text>Mais um para testar o prettier</Text>
+  <Text>testee</Text>
+    <Text>Mais um para testar o prettier</Text>
+    <Text>Mais um para testar o prettier</Text>
+    <Text>Mais um para testar o prettier</Text>
+    <Text>Mais um para testar o prettier</Text>
+    <Text>Mais um para testar o prettier</Text>
+    <Text>Mais um para testar o prettier</Text>
+    <Text>Mais um para testar o prettier</Text>
     <Text style={styles.welcome}>Welcome to React Native TS!</Text>
     <Text style={styles.instructions}>To get started, edit App.tsx</Text>
     <Text style={styles.instructions}>{instructions}</Text>
