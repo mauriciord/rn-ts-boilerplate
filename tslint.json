@@ -1,7 +1,7 @@
 {
-  "rulesDirectory": [
+  "extends": [
     "tslint-plugin-prettier",
-    "tslint:recommended",
+    "tslint:latest",
     "tslint-eslint-rules",
     "tslint-react",
     "tslint-config-prettier"
@@ -11,7 +11,6 @@
     "prettier": true,
     "interface-name": false,
     "jsx-no-lambda": false,
-    "object-literal-sort-keys": false,
-    "quotemark": [true, "single", "jsx-double"]
+    "object-literal-sort-keys": false
   }
 }
