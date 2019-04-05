@@ -1,5 +1,6 @@
 {
-  "extends": [
+  "rulesDirectory": [
+    "tslint-plugin-prettier",
     "tslint:recommended",
     "tslint-eslint-rules",
     "tslint-react",
@@ -7,6 +8,7 @@
   ],
   "jsRules": {},
   "rules": {
+    "prettier": true,
     "interface-name": false,
     "jsx-no-lambda": false,
     "object-literal-sort-keys": false,

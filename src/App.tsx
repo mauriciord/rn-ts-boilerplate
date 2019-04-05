@@ -21,6 +21,9 @@ const instructions = Platform.select({
 const App: SFC<{}> = props => (
   <View style={styles.container}>
   <Text>testee</Text>
+  <Text>testee</Text>
+  <Text>testee</Text>
+  <Text>testee</Text>
     <Text>Mais um para testar o prettier</Text>
     <Text>Mais um para testar o prettier</Text>
     <Text>Mais um para testar o prettier</Text>
