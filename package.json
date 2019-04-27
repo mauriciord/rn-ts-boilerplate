@@ -4,7 +4,11 @@
   "repository": "git@github.com:mauriciord/rn-ts-boilerplate.git",
   "author": "Mauricio R Duarte",
   "license": "MIT",
-  "version": "0.1.1",
+  "version": "0.1.0",
+  "dependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.1"
+  },
   "devDependencies": {
     "semver": "^6.0.0"
   },
